@@ -267,3 +267,51 @@ img {
 .about-content p {
   margin-bottom: 2rem;
 }
+
+/* MODELS SECTION */
+
+.main h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main h2 {
+    font-size: 5.8rem;
+  }
+}
+
+.model {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-bottom: 4rem;
+}
+
+.basic {
+  background-image: url(../img/modelo_basico.jpg);
+}
+
+.premier {
+  background-image: url(../img/modelo_premier.jpg);
+}
+
+.elite {
+  background-image: url(../img/modelo_elite.jpg);
+}
+
+.content-model {
+  background-color: var(--white);
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .content-model {
+    padding: 5rem;
+  }
+}
+
+.content-model h3 {
+  font-size: 4rem;
+}
